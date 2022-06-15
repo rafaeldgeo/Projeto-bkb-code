@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto BKB CODE</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/finalizacao.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container cabecalho">
+        <img src="src/assets/Projeto BKB Code 1.png" alt="Logomarca Burger King, popeyes + Kenzie" width="200" height="52.58">
+        <img src="src/assets/Logos 1.png" alt="Logomarca Projeto BKB CODE" width="169" height="65">
+    </header>
+    <section class="banner">
+        <picture>
+            <!-- imagem responsiva -->
+            <source media="(max-width:969px)" srcset="/src/assets/banner669.png" type="image/png">
+            <source media="(max-width:916px)" srcset="/src/assets/banner916.png" type="image/png">
+            <source media="(max-width:1330px)" srcset="/src/assets/banner1330.png" type="image/png">
+            <img src="src/assets/banner.png" alt="Banner com imagem dos humburgues">
+        </picture>
+    </section>
+    <main class="fonte-nunito">
+        <section class="container">
+            <h1>Resumo do pedido:</h1>
+                <ul>
+                    <li>
+                        <div class="pedido">
+                            <div>
+                                <img class="produto-imagem" src="src/assets/combo_whopper.png" alt="Combo Whopper" width="140" height="112">
+                            </div>
+                            <div class="pedido-produto">
+                                <div>
+                                    <h2>Combo Whopper Rodeio</h2>
+                                </div>
+                                <div class="qtd">
+                                    <img class="qtd-item retirar" src="src/assets/-.png" alt="retirar um produto" width="25" height="25">
+                                    <p class="qtd-item numero">1</p>
+                                    <img class="qtd-item adicionar" src="src/assets/+.png" alt="acrescentar um produto" width="25" height="25">
+                                </div>
+                            </div>
+                        </div>
+                    <div class="total-compra">
+                        <div>
+                            <p>Total:</p>
+                        </div>
+                        <div>
+                            <p>R$ 38.90</p>
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+        </section>
+        <div class="pedido-pronto container">
+            <h2 class="aviso-pronto"><strong>PRONTO!</strong></h2>
+            <p class="aviso-pedido">O seu pedido é o número:</p>
+            <img src="src/assets/check.png" alt="confirmação pronto" width="60" height="60">
+            <h2 class="numero-pedido"><strong>0123</strong></h2>
+        </div>
+    </main>
+    <footer class="container">
+        <h3 class="mensagem-final fonte-nunito">O Burger King agradece. Tenha um bom apetite!</h3>
+    </footer>
+</body>
+</html>

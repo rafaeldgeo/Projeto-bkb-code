@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto BKB CODE</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container cabecalho">
+        <img src="src/assets/Projeto BKB Code 1.png" alt="Logomarca Burger King, popeyes + Kenzie" width="200" height="52.58">
+        <img src="src/assets/Logos 1.png" alt="Logomarca Projeto BKB CODE" width="169" height="65">
+    </header>
+    <section class="banner">
+        <picture>
+            <!-- imagem responsiva -->
+            <source media="(max-width:969px)" srcset="/src/assets/banner669.png" type="image/png">
+            <source media="(max-width:916px)" srcset="/src/assets/banner916.png" type="image/png">
+            <source media="(max-width:1330px)" srcset="/src/assets/banner1330.png" type="image/png">
+            <img src="src/assets/banner.png" alt="Banner com imagem dos humburgues">
+        </picture>
+    </section>
+    <main class="container">
+        <section>
+            <ul class="lista-produtos fonte-nunito">
+               <!--  <li class="produto">
+                    <img src="src/assets/combo_whopper.png" alt="Combo Whopper" width="150" height="119.47">
+                    <h2 class="nome-produto">Combo Whopper</h2>
+                    <p class="preco-produto">R$ 32.90</p>
+                    <button class="btn-adicionar fonte-nunito" type="button">Adicionar</button>
+                </li>
+                <li class="produto">
+                    <img src="src/assets/bk_chicken.png" alt="Bk Chicken" width="150" height="119.47">
+                    <h2 class="nome-produto">Bk Chicken</h2>
+                    <p class="preco-produto">R$ 16.90</p>
+                    <button class="btn-adicionar fonte-nunito" type="button">Adicionar</button>
+                </li>
+                <li class="produto">
+                    <img src="src/assets/sorvete.png" alt="Combo Whopper" width="150" height="119.47">
+                    <h2 class="nome-produto">Sorvete</h2>
+                    <p class="preco-produto">R$ 9.80</p>
+                    <button class="btn-adicionar fonte-nunito" type="button">Adicionar</button>
+                </li>
+                <li class="produto">
+                    <img src="src/assets/cheddar_duplo.png" alt="Cheddar Duplo" width="150" height="119.47">
+                    <h2 class="nome-produto">Cheddar Duplo</h2>
+                    <p class="preco-produto">R$ 13.90</p>
+                    <button class="btn-adicionar fonte-nunito" type="button">Adicionar</button>
+                </li>
+                <li class="produto">
+                    <img src="src/assets/whopper_rodeio.png" alt="Combo Whopper Rodeio" width="150" height="119.47">
+                    <h2 class="nome-produto">Combo Whopper Rodeio</h2>
+                    <p class="preco-produto">R$ 38.90</p>
+                    <button class="btn-adicionar fonte-nunito" type="button">Adicionar</button>
+                </li>
+                <li class="produto">
+                    <img src="src/assets/onion_rings.png" alt="Onion Rings" width="150" height="119.47">
+                    <h2 class="nome-produto">Onion Rings</h2>
+                    <p class="preco-produto">R$ 11.90</p>
+                    <button class="btn-adicionar fonte-nunito" type="button">Adicionar</button>
+                </li>
+                <li class="produto">
+                    <img src="src/assets/bk_mix.png" alt="Bk Mix Ovomaltine" width="150" height="119.47">
+                    <h2 class="nome-produto">Bk Mix Ovomaltine</h2>
+                    <p class="preco-produto">R$ 9.25</p>
+                    <button class="btn-adicionar fonte-nunito" type="button">Adicionar</button>
+                </li>
+                <li class="produto">
+                    <img src="src/assets/cheddar.png" alt="Cheddar" width="150" height="119.47">
+                    <h2 class="nome-produto">Cheddar</h2>
+                    <p class="preco-produto">R$ 11.90</p>
+                    <button class="btn-adicionar fonte-nunito" type="button">Adicionar</button>
+                </li>
+                <li class="produto">
+                    <img src="src/assets/shake.png" alt="Shake Brownie" width="150" height="119.47">
+                    <h2 class="nome-produto">Shake Brownie</h2>
+                    <p class="preco-produto">R$ 11.35</p>
+                    <button class="btn-adicionar fonte-nunito" type="button">Adicionar</button>
+                </li>
+                <li class="produto">
+                    <img src="src/assets/whopper_rodeio.png" alt="Combo Whopper Rodeio" width="150" height="119.47">
+                    <h2 class="nome-produto">Combo Whopper Rodeio</h2>
+                    <p class="preco-produto">R$ 32.90</p>
+                    <button class="btn-adicionar fonte-nunito" type="button">Adicionar</button>
+                </li> -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section class="secao-sacola fonte-nunito">
+            <header class="cabecalho-sacola">
+                <div class="informacoes-sacola container">
+                    <div>
+                        <h2 class="cliente">Olá Kenzie | Minha Sacola</h2>
+                        <p class="retirada-produto"><em>Retirar no balcão</em></p>
+                    </div>
+                    <div>
+                        <h2 class="total-sacola">Total: R$ 00.00</h2>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="sacola container">
+                    <div class="sacola-vazia">
+                        <ul class="item-sacola">
+                           <!--  <li>
+                                <div class="produto-sacola adicionado-sacola">
+                                    <div><img src="src/assets/combo_whopper.png" alt="Combo Whopper" width="150" height="119.47"></div>
+                                    <div style="flex-grow:10">
+                                        <h2 class="nome-produto-sacola" >Combo Whopper</h2>
+                                    </div>
+                                    <div style="flex-grow:1">
+                                        <h2 class="preco-produto-sacola">R$32.90</h2>
+                                    </div>
+                                    <div style="flex-grow:1">
+                                        <button type="button" class="btn-remover">
+                                            <img src="src/assets/lixo.png" alt="remover produto da sacola" width="14" height="20">
+                                        </button>
+                                    </div>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="botoes">
+                        <div><button type="button" class="btn-finalizar">Finalizar Pedido</button></div>
+                        <div><button type="button" class="btn-cancelar">Cancelar Pedido</button></div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </footer>
+
+    <!-- modal cancelar -->
+    <div id="myModal" class="modal fonte-nunito">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Deseja cancelar o pedido?</p>
+            <button class="btn-nao">Não</button>
+            <button class="btn-sim">Sim</button>
+        </div>
+    </div>
+    <script src="src/js/produto.js"></script>
+    <script src="src/js/script.js"></script>
+    <script src="src/js/modal.js"></script>
+</body>
+</html>
