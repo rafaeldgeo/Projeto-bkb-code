@@ -98,7 +98,6 @@ function removerProdutoCarrinho(event){
         carrinho.splice(posicao,1); // retira o produto da lista
         atualizar();
     }
-
 }
 
 //atualizar total do carrinho

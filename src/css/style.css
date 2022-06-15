@@ -232,4 +232,30 @@ body {
     cursor: pointer;
  }
 
+ .btn-sim, .btn-nao {
+    width: 177px;
+    height: 41px;
+    background-color: #F5F3F0;
+    color: #2D2D2D;
+    border-radius: 8px;
+    border-width: 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+ }
+
+ .mensagem-modal {
+    padding: 10px;
+    font-size: 20px;
+ }
+
+ .btn-sim:hover {
+    background-color: #FF8627;
+    color: white;
+}
+
+ .btn-nao:hover {
+    background-color: #FF8627;
+    color: white;
+}
  
